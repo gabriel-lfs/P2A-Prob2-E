@@ -1,0 +1,11 @@
+Observer: 
+   * Interface: Observador.java
+   * Completos: {
+        SAnaliseFluxoCaixa.java, 
+        SAnaliseInvestimento.java, 
+        SBaixaAutomatica.java, 
+        SNotificacao.java,
+        SOfertaFinanceiro.java
+    }
+
+Subject: ContaCorrente.java (Extendendo de Servicos.java)
