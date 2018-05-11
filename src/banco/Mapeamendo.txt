@@ -9,3 +9,6 @@ Observer:
     }
 
 Subject: ContaCorrente.java (Extendendo de Servicos.java)
+
+--> Prof. Marcel: neste problema fica estranho a classe ContaCorrente ser subclasse de Servico, pois a expressão Serviço é usada para definir os serviços a serem realizados sobre uma conta. Então, ContaCorrente não é um tipo de Serviço.
+--> Prof. Marcel: o enum OpcoesNotificacao não precisaria existir (inclusive as combinações de notificação), pois as notificações pelos diferentes formatos poderiam ser subclasses de SNotificacao (3 subclasses). Assim, cada notificação desejada pelo cliente seria um observador registrado na ContaCorrente. Ficaria mais simples.
