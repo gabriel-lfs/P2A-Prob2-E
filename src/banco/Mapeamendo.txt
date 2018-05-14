@@ -12,3 +12,9 @@ Subject: ContaCorrente.java (Extendendo de Servicos.java)
 
 --> Prof. Marcel: neste problema fica estranho a classe ContaCorrente ser subclasse de Servico, pois a expressão Serviço é usada para definir os serviços a serem realizados sobre uma conta. Então, ContaCorrente não é um tipo de Serviço.
 --> Prof. Marcel: o enum OpcoesNotificacao não precisaria existir (inclusive as combinações de notificação), pois as notificações pelos diferentes formatos poderiam ser subclasses de SNotificacao (3 subclasses). Assim, cada notificação desejada pelo cliente seria um observador registrado na ContaCorrente. Ficaria mais simples.
+
+--> Prof. Marcel: Cada problema recebe uma nota de 0,0 a 3,0.
+A soma dos 3 problemas mais a avaliação sobre a colaboração no trabalho em equipe define a nota de cada aluno.
+Problema - Notas Equipe E
+1	    2,9
+2	    2,8
